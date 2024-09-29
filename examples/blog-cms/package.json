@@ -1,0 +1,14 @@
+{
+	"name": "examples-blog-cms",
+	"version": "0.0.0",
+	"main": "./src/index.ts",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun ./src/index.ts"
+	},
+	"dependencies": {
+		"@fieve/cms": "workspace:*",
+		"@fieve/plugin-blog": "workspace:*"
+	}
+}

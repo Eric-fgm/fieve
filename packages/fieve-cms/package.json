@@ -1,0 +1,24 @@
+{
+  "name": "@fieve/cms",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./index.ts"
+  },
+  "dependencies": {
+    "@fieve/orm": "workspace:*",
+    "hono": "^4.4.9",
+    "hono-rate-limiter": "^0.4.0",
+    "inquirer": "^11.0.2",
+    "ioredis": "^5.4.1",
+    "nodemailer": "^6.9.14",
+    "sanitize-html": "^2.13.0",
+    "valid-filename": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "@types/sanitize-html": "^2.13.0"
+  }
+}

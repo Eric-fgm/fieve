@@ -1,0 +1,19 @@
+{
+	"name": "fieve",
+	"version": "0.0.1",
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"lint": "biome lint .",
+		"lint:fix": "biome lint --apply .",
+		"format": "biome format .",
+		"format:fix": "biome format --write ."
+	},
+	"workspaces": ["packages/*", "examples/*"]
+}
